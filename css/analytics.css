@@ -1,0 +1,147 @@
+.searchbar{
+    margin-left: 40%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.searchbar select{
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    border: 2px solid rgb(0, 78, 212);
+    width: 40%;
+    height: 20px;
+}
+
+
+.searchbar button{
+    background-color: rgb(0, 78, 212);
+    color: rgb(207, 225, 255);
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+
+}
+
+.mainTitle{
+    margin-left: 20%;
+}
+
+.all{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.userAnalytics, .financialAnalytics, .quizAnalytics{
+    display: flex;
+    flex-direction: column;
+}
+
+.financialAnalytics, .quizAnalytics {
+    display: none;
+}
+
+.userBoxes{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;  
+}
+
+.totalUsers, .activeUsers, .inactiveUsers{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width:25%;
+    height: 100px;
+    justify-content: center;
+    gap: 10%;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.userSplit {
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width: 25%;
+    height: 100px;
+    padding-left: 30px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.userSplit p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.userRoles {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.userRoles > div {
+    display: flex;
+    gap: 5px;
+}
+
+.userRoles p {
+    margin: 0;
+    font-weight: normal;
+}
+
+.total{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.userChart{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    gap:2%;
+}
+
+.registrationChart, .activeUserChart{
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    background-color: rgb(207, 225, 255);
+    width: 50%;
+    padding: 30px;
+    margin-top: 2%;
+}
+
+.selectAnalytics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.selectAnalytics div{
+    background-color: rgb(0, 78, 212);
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.selectAnalytics div:hover{
+    opacity: 0.3;
+    transition: 0.1s;
+}
+

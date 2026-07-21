@@ -1,0 +1,93 @@
+.header{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 68%;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header p{
+    color: rgb(0, 78, 212);
+    text-decoration: underline;
+}
+
+.header p:hover{
+    opacity: 0.3;
+    transition: 0.1s;
+}
+
+.quiz{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.quizContent{
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width: 25%;
+    background-color: rgb(207, 225, 255);
+}
+
+.quizThumbnail{
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 78, 212);
+}
+
+.category{
+    color: rgb(0, 78, 212);
+    background-color: rgb(207, 225, 255);
+    width: fit-content;
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 2%;
+    font-size: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title{
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+}
+
+.completeQuiz{
+    background-color: rgb(0, 78, 212);
+    color: rgb(207, 225, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    height: 10%;
+}
+
+.completeQuiz:hover{
+    opacity: 0.3;
+    transition: 0.1s;
+}
+
+.videos{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.video{
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(207, 225, 255);
+
+}

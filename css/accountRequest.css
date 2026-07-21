@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center; 
+    margin-top: 5%;
+}
+
+.signupBox{
+    position: fixed;
+    width: 30%;
+    height: 75%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 2%;
+    background-color: rgb(0, 78, 212);
+    color: white;
+
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    align-items: center;
+    padding-top: 5%
+}
+
+.fields input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 2%;
+}
+
+.reason{
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 2%;
+    height: 120px;
+}
+
+.submit{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.logo{
+    width: 40%;
+}
+
+.errmsg{
+    color: red;
+}

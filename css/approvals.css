@@ -1,0 +1,70 @@
+.grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 20%;
+    gap: 5%;
+}
+
+.request{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    border: 5px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 10px;
+    height: 300px;
+}
+
+
+.icon{
+    text-align: center;
+    font-size: 80px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    border-right: 5px solid rgb(0, 78, 212);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%
+}
+
+.approve{
+    color: rgb(207, 225, 255);
+    background-color: rgb(0, 78, 212);
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.reject{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.right{
+    padding-left: 10px;
+}
+
+.reason{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.noInput{
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+}

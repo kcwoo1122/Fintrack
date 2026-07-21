@@ -1,0 +1,75 @@
+.quizInfo{
+    margin-left: 30%;
+    background-color: rgb(207, 225, 255);
+    width: 50%;
+    border: 5px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    height: 380px;
+    margin-top: 8%;
+}
+
+.quizThumbnail{
+    text-align: center;
+    border-bottom: 5px solid rgb(0, 78, 212);
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    gap: 2%;
+    margin-top: 10px
+}
+
+.category{
+    color: rgb(0, 78, 212);
+    background-color: rgb(207, 225, 255);
+    width: fit-content;
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.description{
+    padding-left: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60%;
+
+}
+
+.completeQuiz{
+    background-color: rgb(0, 78, 212);
+    color: rgb(207, 225, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    height: 10%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    padding:5px;
+}
+
+.completeQuiz:hover{
+    opacity: 0.3;
+    transition: 0.1s;
+}
+
+.totalQuestions{
+    font-weight: bold;
+    font-size: 18px
+}

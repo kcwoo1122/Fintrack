@@ -1,0 +1,131 @@
+.quizTitle{
+    margin-left: 36%;
+    margin-top: 4%;
+}
+
+.outerBox{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous{
+    background-color: rgb(0, 78, 212);
+    color: white;
+    height: 80px;
+    width: 2%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 2px;
+    padding-left: 2px;
+}
+
+.next{
+    background-color: rgb(0, 78, 212);
+    color: white;
+    height: 80px;
+    width: 2%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2px;
+    padding-left: 2px;
+}
+
+.quizBox{
+    background-color: rgb(207, 225, 255);
+    border: 5px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+}
+
+.question{
+    margin-top: 10%;
+}
+
+.answer{
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 78, 212);
+    margin-top: 5%;
+}
+
+.submit{
+    margin-left: 55%;
+    width: 10%;
+    height: 35px;
+    background-color: rgb(0, 78, 212);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.scoreBox{
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30%;
+    height: 300px;
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    border: 10px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.scoreBox p{
+    margin-top: 10%;
+}
+
+.percentage{
+    font-size: 50px;
+}
+
+.score{
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.questionBox{
+    margin-left: 20%;
+    background-color: rgb(207, 225, 255);
+    border: 5px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width: 75%;
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20%;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.correctAnswers{
+    margin-left: 20%;
+    color: rgb(0, 78, 212);
+}
+
+.reviewQuestions{
+    color: rgb(0, 78, 212);
+}

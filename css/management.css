@@ -1,0 +1,275 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.top{
+    margin-left: 20%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 48%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.buttons div{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 55%;
+    width: 150px;
+    gap: 5%;
+}
+
+.description{
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+}
+
+.middle{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1%;
+    height: 100px;
+}
+
+.middleContent{
+    border: 1px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+
+.amount{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.middleTitle{
+    margin-bottom: 0;
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+    
+}
+
+.icon{
+    color: rgb(0, 78, 212);
+    background-color: rgb(207, 225, 255);
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.charts{
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    gap: 2%;
+    margin-top: 1%;
+    text-align: center;
+
+}
+
+.bottom{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width: 70%;
+    align-items: center;
+    height: 20%;
+    overflow-y: scroll;
+}
+
+
+.historyRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(0, 78, 212);
+    background-color: rgb(207, 225, 255);
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 1%;
+}
+
+.historyRowLeft{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+.rowLeftTop{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 300px
+}
+
+.title{
+    font-weight: bold;
+}
+
+.date{
+    margin-top: 0; 
+}
+
+.recurring{
+    display: flex;
+    background-color: rgb(0, 78, 212);
+    color: rgb(207, 225, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.amountHistory{
+    display: flex;
+    flex-direction: row;
+    color: rgb(26, 175, 26);
+}
+
+.fa-pen-to-square{
+    padding-right: 10px;
+    color: rgb(0, 78, 212);
+}
+
+.historyRowRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.goals{
+    margin-left: 20%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2%;
+}
+
+.goal{
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    margin-bottom: 2%;
+}
+
+.goal div{
+    margin-left: 10%;
+}
+
+.progress{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.progressBar{
+    width: 75%;
+    height: 30px;
+}
+
+.progressPercentage{
+    font-size: 13px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+
+.goalTarget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30px;
+    background-color: rgb(0, 78, 212);;
+    color: rgb(207, 225, 255);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.goalTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8%;
+}
+
+.goalType{
+    margin-left: 25%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.goal i{
+    margin-left: 90%;
+}
+
+.choose{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.choose div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 78, 212);
+    border-radius: 10px;
+    width: 40%;
+    height: 300px;
+    background-color: rgb(207, 225, 255);
+    color: rgb(0, 78, 212);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.choose div:hover{
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+
+.removeChart{
+    color: rgb(207, 225, 255);
+    background-color: rgb(0, 78, 212);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
